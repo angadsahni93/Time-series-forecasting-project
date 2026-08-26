@@ -22,8 +22,8 @@ Critical industry for downstream industries (smartphone, cloud computing, etc.)
 ```mermaid
 flowchart TD
     A[Data collection] --> B[Data cleaning/preprocessing]
-    B --> C[Exploratory Data Analysis<br/>For relevance to business questions]
+    B --> C[Exploratory Data Analysis<br/>(For relevance to business questions)]
     C --> D[Time series visualizations]
     D --> E[Trend and Seasonality analysis]
-    E --> F[Forecasting model<br/>Industry trends]
+    E --> F[Forecasting model<br/>(Industry trends)]
 ```
