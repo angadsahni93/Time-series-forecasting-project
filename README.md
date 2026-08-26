@@ -14,7 +14,11 @@ Critical industry for downstream industries (smartphone, cloud computing, etc.)
 <br>
 
    1a. Is the demand **slowing down**?
+<br>
+
 2. Are there **seasonal patterns** in demand?
+<br>
+
 3. What will be the **expected demand** over the next few months?
 
 *Overarching Question:* How can companies plan **scaling-up or reducing output**, based on the seasonal patterns of demand?
