@@ -12,6 +12,7 @@ Critical industry for downstream industries (smartphone, cloud computing, etc.)
 ## Business Questions:
 1. How does the semiconductor demand **change** over time?
 <br>
+
    1a. Is the demand **slowing down**?
 2. Are there **seasonal patterns** in demand?
 3. What will be the **expected demand** over the next few months?
