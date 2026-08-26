@@ -20,14 +20,10 @@ Critical industry for downstream industries (smartphone, cloud computing, etc.)
 
 ## Approach/Methodology:
 ```mermaid
-
-Data collection -> Data cleaning/preprocessing -> Exploratory Data Analysis
-(for relevance                                                ↓
-   to business                                    Times series visualizations
-    questions)                                                ↓
-                                                  Trend and Seasonality analysis
-                                                              ↓
-                                                      Forecasting model
-                                                      (industry trends)
-
+flowchart TD
+    A[Data collection] --> B[Data cleaning/preprocessing]
+    B --> C[Exploratory Data Analysis<br/>For relevance to business questions]
+    C --> D[Time series visualizations]
+    D --> E[Trend and Seasonality analysis]
+    E --> F[Forecasting model<br/>Industry trends]
 ```
