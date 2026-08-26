@@ -11,9 +11,10 @@ Critical industry for downstream industries (smartphone, cloud computing, etc.)
 
 ## Business Questions:
 1. How does the semiconductor demand **change** over time?
+<br>
    1a. Is the demand **slowing down**?
-3. Are there **seasonal patterns** in demand?
-4. What will be the **expected demand** over the next few months?
+2. Are there **seasonal patterns** in demand?
+3. What will be the **expected demand** over the next few months?
 
 *Overarching Question:* How can companies plan **scaling-up or reducing output**, based on the seasonal patterns of demand?
 
@@ -22,8 +23,8 @@ Critical industry for downstream industries (smartphone, cloud computing, etc.)
 ```mermaid
 flowchart TD
     A[Data collection] --> B[Data cleaning/preprocessing]
-    B --> C[Exploratory Data Analysis<br/>(For relevance to business questions)]
+    B --> C[Exploratory Data Analysis:<br/>for relevance to business questions]
     C --> D[Time series visualizations]
     D --> E[Trend and Seasonality analysis]
-    E --> F[Forecasting model<br/>(Industry trends)]
+    E --> F[Forecasting model:<br/>industry trends]
 ```
