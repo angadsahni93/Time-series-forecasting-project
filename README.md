@@ -33,3 +33,15 @@ flowchart TD
     D --> E[Trend and Seasonality analysis]
     E --> F[Forecasting model:<br/>industry trends]
 ```
+
+
+## Forecasting Model Concepts: AR, MA, ARIMA
+**AR** = uses past **values**. Predicts $y_t$ using $y_{t-1}, y_{t-2}, ..., y_{t-p}$ + noise (residuals) — $p$ = number of lagged observations included (AR order). AR captures **momentum**.
+
+**MA** = uses past **forecast errors**. Predicts $y_t$ using noise (residuals, mistakes) from the previous $q$ periods — $q$ = number of lagged forecast errors included (MA order).
+
+**AR + MA + Integration (differencing) = ARIMA** (AutoRegressive Integrated Moving Average) — combines AR + MA, plus differencing to first make a non-stationary series stationary.
+
+$$ARIMA(p, d, q) \quad p = \text{AR order (lagged values)}, \quad d = \text{differencing order}, \quad q = \text{MA order (lagged forecast errors)}$$
+
+**Example:** $ARIMA(1,1,1)$ — $y_t$ depends on 1 lagged value ($p=1$) and 1 lagged forecast error ($q=1$), fitted on the series after differencing it once ($d=1$) to remove trend.
