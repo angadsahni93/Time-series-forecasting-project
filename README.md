@@ -40,6 +40,8 @@ flowchart TD
 
 **MA** = uses past **forecast errors**. Predicts $y_t$ using noise (residuals, mistakes) from the previous $q$ periods — $q$ = number of lagged forecast errors included (MA order).
 
+![AR forecasts from past values; MA forecasts from past forecast errors](images/ar_ma_forecast.png)
+
 **AR + MA + Integration (differencing) = ARIMA** (AutoRegressive Integrated Moving Average) — combines AR + MA, plus differencing to first make a non-stationary series stationary.
 
 $$ARIMA(p, d, q) \quad p = \text{AR order (lagged values)}, \quad d = \text{differencing order}, \quad q = \text{MA order (lagged forecast errors)}$$
